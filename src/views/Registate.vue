@@ -19,9 +19,9 @@
                   <v-icon dark>mdi-google</v-icon>
                 </v-btn>
               </div>
-              <v-col cols="12">
+              <!-- <v-col cols="12">
                   <span>-------- or ---------------</span>
-              </v-col>
+              </v-col> -->
             </v-card-title>
             <v-form ref="form" v-model="valid" lazy-validation>
               <v-col class="center" cols="12">

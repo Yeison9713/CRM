@@ -47,32 +47,6 @@
   </v-parallax>
 </template>
 
-<style>
-.v-parallax__image-container img {
-  transform: rotate3d(1, 1, 1, 35deg) !important;
-  height: 80%;
-  width: 50%;
-}
-
-.v-card__title {
-  justify-content: center;
-}
-
-.v-input__control {
-  width: 100% !important;
-}
-
-.v-input--checkbox .v-input__control .v-input__slot {
-  width: 100%;
-}
-
-.v-input--checkbox .v-input__control label {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-</style>
-
 <script>
 export default {
   data: () => ({
@@ -99,3 +73,30 @@ export default {
   }
 };
 </script>
+
+<style>
+.v-parallax__image-container img {
+  transform: rotate3d(1, 1, 1, 35deg) !important;
+  height: 80%;
+  width: 50%;
+}
+
+.v-card__title {
+  justify-content: center;
+}
+
+.v-input__control {
+  width: 100% !important;
+}
+
+.v-input--checkbox .v-input__control .v-input__slot {
+  width: 100%;
+}
+
+.v-input--checkbox .v-input__control label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+</style>
+
